@@ -24,13 +24,14 @@ exports.tearDown = function() {
 
 exports.testAddCache = function() {
    // trying to access a not initialized cache throws exception
+   var noCache = cacheMgr.getCache('test');
    assert.throws(function() {
-      cacheMgr.getCache("test");
+      noCache.get('foo');
    });
    cacheMgr.addCache("test");
    var cache = cacheMgr.getCache("test")
    assert.isNotNull(cache);
-   assert.isTrue(cache instanceof Packages.net.sf.ehcache.Cache);
+   assert.isTrue(cacheMgr._getCache('test') instanceof Packages.net.sf.ehcache.Cache);
    return;
 };
 
