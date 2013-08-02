@@ -10,6 +10,11 @@
             "email": "simon@nekapuzer.at"
         }],
     "contributors": [
+        {
+            "name": "Simon Oberhammer",
+            "web": "http://nekapuzer.at/",
+            "email": "simon@nekapuzer.at"
+        }
     ],
     "dependencies": {},
     "bugs": "",
