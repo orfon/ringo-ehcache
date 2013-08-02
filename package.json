@@ -1,9 +1,9 @@
 {
     "name": "ringo-ehcache",
     "version": "0.1.0",
-    "description": "",
-    "keywords": ["cache"],
-    "homepage": "https://github.com/oberhamsi/ringo-ehcache",
+    "description": "simple wrapper around ehcache",
+    "keywords": ["cache", "ehcache"],
+    "homepage": "https://github.com/orfon/ringo-ehcache",
     "maintainers": [{
             "name": "Simon Oberhammer",
             "web": "http://nekapuzer.at/",
@@ -19,7 +19,7 @@
     }],
     "repositories": [{
         "type": "git",
-        "url": "https://github.com/oberhamsi/ringo-ehcache.git"
+        "url": "https://github.com/orfon/ringo-ehcache.git"
     }],
     "engines": {
         "ringojs": ">= 0.9"
